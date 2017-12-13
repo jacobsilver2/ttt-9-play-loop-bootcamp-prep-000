@@ -38,14 +38,9 @@ end
 # Define your play method below
 counter = 0
 def play(board)
-  counter +=1
-  if counter >= 10
-    break
-  end
+counter += 1
+if counter >= 10
+  break
 end
-
-
-
-
 
 end
